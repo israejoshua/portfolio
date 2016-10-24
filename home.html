@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>PAP - Uninorte</title>
+     <link rel="stylesheet" href="styles.css" />
+     <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;float:right">Login</button>
+
+<h2>Portfólio Acadêmico de Projetos - Uninorte</h2>
+
+<form>
+  <input type="search" name="search" placeholder="Search..">
+</form>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <!--
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="imagens/simbolo-uninorte.png" alt="Avatar" class="avatar">
+    </div>
+    -->
+    <div class="container">
+      <!--<label><b>Username</b></label>-->
+      <input type="text" placeholder="Usuário" name="uname" required>
+
+      <!--<label><b>Password</b></label>-->
+      <input type="password" placeholder="Senha" name="psw" required>
+        
+      <button type="submit" class="modal-button">Login</button>
+      <input type="checkbox" checked="checked">Lembrar neste computador
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Esqueceu sua <a href="#">senha</a>?</span>
+    </div>
+  </form>
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
+
